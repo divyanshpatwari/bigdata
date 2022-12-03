@@ -25,7 +25,7 @@ object obj1 {
                       
   df1.show()
   df1.printSchema()
-  /*  
+    
   val read = Source.fromURL("https://randomuser.me/api/0.8/?results=500")
   val apidata = read.mkString
   
@@ -72,7 +72,7 @@ object obj1 {
   
   val notnull = join.filter(join("nationality").isNotNull)
                     .withColumn("current_date",current_date()) 
-  notnull.show() */
+  notnull.show()
   }
   
 }
