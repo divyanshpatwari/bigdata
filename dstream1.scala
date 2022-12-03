@@ -61,18 +61,11 @@ object obj1 {
 				     .option("username","root")
 				     .option("password","seagull")
 				     .save()
-				     
-				     
+    
 				   }
 				 )
-				 
-				 
-				 
 				 ssc.start()
 				 ssc.awaitTermination()
-									
-									
-									
     
   }
   
