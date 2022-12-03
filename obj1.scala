@@ -53,14 +53,14 @@ object obj1 {
 				      val df = x.toDF("name").withColumn("time",current_timestamp())
 				     
 				     df.show(false)
-//				     df.write.format("jdbc")
-//				     .mode("append")
-//				     .option("url","jdbc:mysql://localhost:3306/streamtest1")
-//				     .option("driver","com.mysql.cj.jdbc.Driver")
-//				     .option("dbtable","tab1")
-//				     .option("username","root")
-//				     .option("password","seagull")
-//				     .save()
+				     df.write.format("jdbc")
+				     .mode("append")
+				     .option("url","jdbc:mysql://localhost:3306/streamtest1")
+				     .option("driver","com.mysql.cj.jdbc.Driver")
+				     .option("dbtable","tab1")
+				     .option("username","root")
+				     .option("password","seagull")
+				     .save()
 				     
 				     
 				   }
