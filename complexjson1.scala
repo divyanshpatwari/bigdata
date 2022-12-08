@@ -28,7 +28,7 @@ object objxml1 {
    
      val flatdf = df1.withColumn("data",explode(col("data")))
                     .withColumn("data",explode(col("data")))
-                    .withColumn("approvals_explode",explode(col("meta.view.approvals"))).drop(col("meta.view.approvals"))
+                    .withColumn("approvals_explode",explode(col("meta.view.approvals")))
                     .withColumn("columns_explode",explode(col("meta.view.columns")))
                     
                     
