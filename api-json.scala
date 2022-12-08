@@ -1,4 +1,4 @@
-// ============================= OUTPUT AT THE END BELOW ====================================
+/* ============================= OUTPUT AT THE END BELOW ==================================== */
 package apisamplepack
 
 import org.apache.spark.SparkConf
